@@ -27,3 +27,7 @@ A simple command-line banking application built in Python using Object-Oriented 
 ---
 
 ## Project Structure
+lux-bank/
+│── account.py # Contains Account class
+│── main.py # Main program (CLI interaction)
+│── README.md # Project documentation
