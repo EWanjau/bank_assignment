@@ -8,14 +8,9 @@ class Account():
         return self.amount
 
     def deposit_amount(self, deposit):
-        if deposit <= 0:
-            print("Amount must be higher than Kshs 0")
         self.amount += deposit
         return self.amount
 
     def withdraw_amount(self, withdraw):
-        if withdraw <= 0:
-            return print("Amount must be higher than Kshs 0")
-        else:
-            self.amount -= withdraw
-            return self.amount
+        self.amount -= withdraw
+        return self.amount
